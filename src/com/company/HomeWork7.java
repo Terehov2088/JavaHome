@@ -1,5 +1,6 @@
+package com.company;
+
 import static java.lang.Math.*;
-import java.lang.String.*;
 
 public class HomeWork7 {
     public static void main(String[] args) {
@@ -17,36 +18,25 @@ public class HomeWork7 {
         var s = (double)1/2 * a * b;
         var p = a + b +c;
 
-        System.out.printf("Площадь прямоугольного треугольника: %.0f см   Периметр прямоугольного треугольника: %.0f см \n", s, p);
+        System.out.printf("Площадь прямоугольного треугольника: %.0f см2   Периметр прямоугольного треугольника: %.0f см \n", s, p);
 
 
         /*Задача 7: Даны координаты двух вершин прямоугольника, которые находятся на противоположных концах диагонали.
           Стороны прямоугольника параллельны осям координат.
           Найти площадь прямоугольника и его периметр */
 
+        var x1 = 3;
+        var x2 = 2;
+        var y1 = 2;
+        var y2 = 1;
 
+        var A = abs(x2 - x1);
+        var B = abs(y2 - y1);
 
-//        int[] num0 = new int[] { 0, 0};
-//        int[] num1 = new int[] { 5, 0};
-//        int[] num2 = new int[] { 0, 5};
+        var Perimeter =(double) (A + B) * 2;
+        var Area = (double) A * B;
 
-
-
-//        var num3 = num1[0] - num0[0];
-//        System.out.print(a);
-//
-//        String toString1 = java.util.Arrays.toString(num3);
-//        System.out.println(toString1);
-//
-//
-//
-//        int [] mas = {4,5,6};
-//        System.out.println(mas); // - выводит "[I@28d93b30"
-//        String toString1 = java.util.Arrays.toString(mas);
-//        System.out.println(toString1); // - выводит [4, 5, 6]
-
-
-
+        System.out.printf("Площадь прямоугольника: %.0f см2   Периметр прямоугольника: %.0f см \n", Area, Perimeter);
 
 
     }

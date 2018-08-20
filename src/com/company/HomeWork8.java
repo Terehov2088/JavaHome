@@ -14,13 +14,13 @@ public class HomeWork8 {
         var i = 30;
 
         var c = sqrt(pow(a, 2) + pow(b, 2) - 2 * a * b * cos(i));
-        var p = a + b + c;
-        var pp = (double) 1/2 * p;
+        var Perimeter = a + b + c;
+        var HalfPerimeter = (double) 1/2 * Perimeter;
 
-        var s = sqrt(pp * (pp-a) * (pp-b) * (pp-c));
+        var Area = sqrt(HalfPerimeter * (HalfPerimeter-a) * (HalfPerimeter-b) * (HalfPerimeter-c));
 
 
-        System.out.printf("Третья сторона треугольника: %.2f Площадь треугольника: %.2f см  Периметр треугольника: %.2f см \n", c, s, p);
+        System.out.printf("Третья сторона треугольника: %.2f см2 Площадь треугольника: %.2f см  Периметр треугольника: %.2f см \n", c, Area, Perimeter);
 
     }
 }
