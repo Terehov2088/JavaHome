@@ -1,7 +1,5 @@
 package com.company;
 
-import static java.lang.Math.*;
-
 public class HomeWork9 {
     public static void main(String[] args) {
 
