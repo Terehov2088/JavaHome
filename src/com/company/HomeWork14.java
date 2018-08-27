@@ -30,11 +30,7 @@ public class HomeWork14 {
         int D3I = Character.digit(D3C,10);
 
 
-        var DistanceAll = D1I + D2I + D3I;
-        return DistanceAll;
-
-
-
+        return D1I + D2I + D3I;
 
     }
 
