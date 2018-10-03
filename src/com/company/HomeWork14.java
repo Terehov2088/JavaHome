@@ -1,5 +1,7 @@
 package com.company;
 import java.lang.String;
+import java.util.Scanner;
+
 
 public class HomeWork14 {
 
@@ -12,7 +14,11 @@ public class HomeWork14 {
     Напишите функцию, которая по этому числу найдет сколько всего прошли туристы (т.е. Задано число 473.
     По этому числу рассчитывается общий путь: 4+7+3=14 миль).
     */
-    var Distance = Distance(473);
+
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        double Number = in.nextDouble();
+    var Distance = Distance(Number);
         System.out.printf("Три туриста вместе прошли:  %.0f миль \n", Distance);
 
 

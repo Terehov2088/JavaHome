@@ -2,8 +2,6 @@ package com.company;
 import java.util.*;
 
 public class HomeWork13 {
-
-
     public static void main(String[] args){
 
         /* На первой колонизированной людьми планете Земля-2 введен календарь, который содержит 10 месяцев в году.
